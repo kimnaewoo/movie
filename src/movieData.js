@@ -1,4 +1,4 @@
-export const data = {
+export const moviedata = {
   dates: {
     maximum: '2024-07-10',
     minimum: '2024-05-29',

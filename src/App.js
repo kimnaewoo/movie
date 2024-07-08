@@ -1,8 +1,8 @@
-import Movie from './components/movie.jsx';
+import Movie from './components/Movie.jsx';
 import { data } from './movieData.js';
 
 function App() {
-  return <div className="app-container">{<Movie />}</div>;
+  return <Movie />;
 }
 
 export default App;
