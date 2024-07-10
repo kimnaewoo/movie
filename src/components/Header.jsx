@@ -12,14 +12,14 @@ const Header = () => {
             src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg"
           />
         </Link>
-        <Link to="movie/popular" style={{ textDecoration: 'none' }}>
-          <span>Popular</span>
+        <Link to="movies/popular" style={{ textDecoration: 'none' }}>
+          <span>인기 상영작</span>
         </Link>
-        <Link to="movie/top_rated" style={{ textDecoration: 'none' }}>
-          <span>Top Rated</span>
+        <Link to="movies/top_rated" style={{ textDecoration: 'none' }}>
+          <span>최고순위 상영작</span>
         </Link>
-        <Link to="movie/upcoming" style={{ textDecoration: 'none' }}>
-          <span>Upcoming</span>
+        <Link to="movies/upcoming" style={{ textDecoration: 'none' }}>
+          <span>개봉예정 상영작</span>
         </Link>
       </div>
     </div>

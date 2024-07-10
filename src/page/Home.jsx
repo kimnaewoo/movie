@@ -4,6 +4,7 @@ import axios from 'axios';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
+import Movielist from '../components/Movielist';
 
 export default function Home() {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -46,6 +47,7 @@ export default function Home() {
             </Link>
           ))}
         </Carousel>
+        <Movielist />
       </div>
     </>
   );
